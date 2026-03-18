@@ -32,6 +32,9 @@ yarn-error.log*
 *~
 .DS_Store
 
+# Claude Code settings
+.claude/settings.local.json
+
 # Docker volumes data (not the configuration)
 postgres-data/
 redis-data/
