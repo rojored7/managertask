@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Itac/.config/claude/agents/cati/**)",
+      "mcp__playwright__browser_navigate",
+      "Bash(findstr:*)",
+      "Bash(docker ps:*)",
+      "Read(//c/Users/Itac/.config/claude/agents/**)",
+      "Bash(powershell -ExecutionPolicy Bypass -File generate-backend.ps1)",
+      "Bash(powershell -ExecutionPolicy Bypass -File generate-frontend.ps1)",
+      "Bash(powershell -ExecutionPolicy Bypass -File generate-complete-app.ps1)",
+      "Bash(bash:*)",
+      "Bash(docker-compose build:*)",
+      "Bash(npm install)",
+      "Bash(docker-compose up:*)",
+      "Bash(docker-compose ps:*)",
+      "Bash(docker-compose exec:*)",
+      "Bash(docker-compose logs:*)",
+      "Bash(docker-compose down:*)",
+      "Bash(npm run build:*)",
+      "Bash(test -f:*)",
+      "Bash(curl:*)",
+      "Bash(docker exec:*)",
+      "Bash(docker-compose stop:*)",
+      "Bash(docker-compose rm:*)",
+      "Bash(docker inspect:*)",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_close",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
